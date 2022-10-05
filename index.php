@@ -57,13 +57,13 @@ $nearbychunk = array_chunk($nearby, 2);
             <span class="input-group-addon search-icon"><i class="fas fa-search"></i></span>
                 <input type="text" class="form-control" placeholder="Search Food" style="border-color:#E1E1E1;">
                 <div class="input-group-btn">
-                    <button class="fas fa-filter ico" data-toggle="modal" data-target="#mapModal"></button>
+                    <button class="fas fa-filter ico" data-toggle="modal" data-target="#mapModal" ></button>
                 </div>
             </div>
         </div>
         <div class="col-lg-4">
           <div class="col-md-12 input-group-lg search2">
-                <select class="form-control" placeholder="Categories" />
+                <select class="form-control" placeholder="Categories" style="border-radius: unset;"/>
                   <option>Categories</option>
                   <option>Pickup</option>
                 </select>
@@ -140,11 +140,15 @@ $nearbychunk = array_chunk($nearby, 2);
 
                 </div>
                 </a>      
+                
         <?php } ?>
                             <?php } ?>
+                            
                 </div>    
+                
                     </div>
                 </div>
+                
 </section>
 <section>
     <div class="container">
@@ -179,7 +183,7 @@ $nearbychunk = array_chunk($nearby, 2);
 </section>
 <?php include 'components/slide.php'; ?>
 
-<section>
+<section style="margin-top: 20px;">
     <div class="container custom">
         <div class="row">
             <div class="col-6">
@@ -203,16 +207,16 @@ $nearbychunk = array_chunk($nearby, 2);
                                                 <i class="fas fa-clock"><span class="iText"> Open</span></i>
                                               </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-5">
                                               
                                             </div>
-                                            <div class="col-md-4">
-                                              <div class="heart">
+                                            <div class="col-md-3">
+                                              <div class="heart" >
                                                 <i class="fas fa-heart"></i>
                                               </div>
                                             </div>
                                           </div>
-                                          <div class="row rowCustom">
+                                          <div class="row rowCustom" style="height: 100px;">
                                             
                                           </div>
                                           <div class="row">
@@ -226,7 +230,7 @@ $nearbychunk = array_chunk($nearby, 2);
                                             </div>
                                             <div class="col-md-4">
                                               <div class="watch">
-                                                <span class="iText"> Kitchen</span>
+                                                <span class="iText" style="padding-left: 15px;"> Kitchen</span>
                                               </div>
                                             </div>
                                             <div class="col-md-1">
@@ -266,16 +270,16 @@ $nearbychunk = array_chunk($nearby, 2);
                                                 <i class="fas fa-clock"><span class="iText"> Open</span></i>
                                               </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-5">
                                               
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                               <div class="heart">
                                                 <i class="fas fa-heart"></i>
                                               </div>
                                             </div>
                                           </div>
-                                          <div class="row rowCustom">
+                                          <div class="row rowCustom" style="height: 100px;">
                                             
                                           </div>
                                           <div class="row">
@@ -289,7 +293,7 @@ $nearbychunk = array_chunk($nearby, 2);
                                             </div>
                                             <div class="col-md-4">
                                               <div class="watch">
-                                                <span class="iText"> Kitchen</span>
+                                                <span class="iText" style="padding-left: 15px;"> Kitchen</span>
                                               </div>
                                             </div>
                                             <div class="col-md-1">
@@ -329,16 +333,16 @@ $nearbychunk = array_chunk($nearby, 2);
                                                 <i class="fas fa-clock"><span class="iText"> Open</span></i>
                                               </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-5">
                                               
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                               <div class="heart">
                                                 <i class="fas fa-heart"></i>
                                               </div>
                                             </div>
                                           </div>
-                                          <div class="row rowCustom">
+                                          <div class="row rowCustom" style="height: 100px;">
                                             
                                           </div>
                                           <div class="row">
@@ -352,7 +356,7 @@ $nearbychunk = array_chunk($nearby, 2);
                                             </div>
                                             <div class="col-md-4">
                                               <div class="watch">
-                                                <span class="iText"> Kitchen</span>
+                                                <span class="iText" style="padding-left: 15px;"> Kitchen</span>
                                               </div>
                                             </div>
                                             <div class="col-md-1">
@@ -392,16 +396,16 @@ $nearbychunk = array_chunk($nearby, 2);
                                                 <i class="fas fa-clock"><span class="iText"> Open</span></i>
                                               </div>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-5">
                                               
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-3">
                                               <div class="heart">
                                                 <i class="fas fa-heart"></i>
                                               </div>
                                             </div>
                                           </div>
-                                          <div class="row rowCustom">
+                                          <div class="row rowCustom" style="height: 100px;">
                                             
                                           </div>
                                           <div class="row">
@@ -415,7 +419,7 @@ $nearbychunk = array_chunk($nearby, 2);
                                             </div>
                                             <div class="col-md-4">
                                               <div class="watch">
-                                                <span class="iText"> Kitchen</span>
+                                                <span class="iText" style="padding-left: 15px;"> Kitchen</span>
                                               </div>
                                             </div>
                                             <div class="col-md-1">
@@ -807,7 +811,7 @@ $nearbychunk = array_chunk($nearby, 2);
                       <div class="col-md-8">
                         <p class="cardText"> <?php echo $nearbychunk[$x][$y]->kitchen_area ?> - <?php echo $nearbychunk[$x][$y]->kitchen_city ?></p>
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-4">
                         <i class="fas fa-star customStar"><span class="cardRating"> <?php echo ($nearbychunk[$x][$y]->avg_rate) ?></span></i>
                       </div>
                     </div>
@@ -827,7 +831,7 @@ $nearbychunk = array_chunk($nearby, 2);
                       </div>
                     </div>
                     <div class="row rowCust">
-                      <div class="col-md-7">
+                      <div class="col-md-8">
                         <p class="cardText"> <?php echo $nearbychunk[$x][$y]->from ?> -  <?php echo $nearbychunk[$x][$y]->to ?></p>
                       </div>
                       <div class="col-md-4">

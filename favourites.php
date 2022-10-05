@@ -102,7 +102,7 @@ $dishItem = $response_data->dishItem;
         <a class="text-muted mr-4" onclick="category('dishItem')">Dish Item</a>
                   
       </div>
-      <div  id="kitchenItem" class="category"  style="display:block;width:100%;color">
+      <div  id="kitchenItem" class="category"  style="display:block;width:100%;">
 
         <div class="row ">
 
@@ -116,7 +116,7 @@ $dishItem = $response_data->dishItem;
 
 
         <div class="col-lg-6 mt-4">
-          <div class="card">
+          <div class="card" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
             <div class="row no-gutters">
               <div class="col-auto">
                 <a href="#" class="pop"><img src="images/pizza-round.png" id="imageresource" class="img m-2" alt="" /></a>
@@ -133,8 +133,8 @@ $dishItem = $response_data->dishItem;
                     Ornare leo non mollis id cursus. Eu euismod faucibus in,
                   </p>
                   <a href="#" class="m-0 text-main font-weight-bold" data-toggle="modal" data-target="#hotelmodal">Read more</a>
-                  <div class="card-text row mt-2">
-                    <h5 class="col-6 text-second">Service 2</h5>
+                  <div class="card-text row mt-2" style="margin:0 ;">
+                    <h5 class="col-6 text-second" style="padding: 0;">Service 2</h5>
                     <div class="col-6">
                       <span class="float-left mr-1">Reviews: </span>
                       <div class="text-muted text-xs">
@@ -179,7 +179,7 @@ $dishItem = $response_data->dishItem;
 
       </div>
      
-      <div  id="dishItem" class="category"  style="display:none;width:100%">
+      <div  id="dishItem" class="category"  style="display:none; width:100%">
 
    <div class="row ">
 
@@ -190,9 +190,9 @@ $dishItem = $response_data->dishItem;
             ?>
 
         <div class="col-lg-6 mt-4">
-          <div class="card">
+          <div class="card" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
             <div class="row no-gutters">
-              <div class="col-auto">
+              <div class="col-auto" style="padding-left: 0px;">
                 <a href="#" class="pop"><img src="images/pizza-round.png" id="imageresource" class="img m-2" alt="" /></a>
               </div>
               <div class="col">
@@ -207,8 +207,8 @@ $dishItem = $response_data->dishItem;
                     Ornare leo non mollis id cursus. Eu euismod faucibus in,
                   </p>
                   <a href="#" class="m-0 text-main font-weight-bold" data-toggle="modal" data-target="#hotelmodal">Read more</a>
-                  <div class="card-text row mt-2">
-                    <h5 class="col-6 text-second">Service 2</h5>
+                  <div class="card-text row mt-2" style="margin: 0;">
+                    <h5 class="col-6 text-second" style="padding: 0;">Service 2</h5>
                     <div class="col-6">
                       <span class="float-left mr-1">Reviews: </span>
                       <div class="text-muted text-xs">
@@ -259,7 +259,7 @@ $dishItem = $response_data->dishItem;
     <div class="row m-4">
       <div class="col-lg-6 mt-4">
         <div class="card">
-          <div class="row no-gutters">
+          <div class="row">
             <div class="col-auto">
               <a href="#" class="pop"><img src="images/pizza-round.png" id="imageresource" class="img m-2" alt="" /></a>
             </div>
@@ -313,7 +313,7 @@ $dishItem = $response_data->dishItem;
       </div>
       <div class="col-lg-6 mt-4">
         <div class="card">
-          <div class="row no-gutters">
+          <div class="row">
             <div class="col-auto">
               <a href="#" class="pop"><img src="images/pizza-round.png" class="img m-2" alt="" /></a>
             </div>

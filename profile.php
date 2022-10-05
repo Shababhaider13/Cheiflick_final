@@ -114,7 +114,7 @@ echo '<script>alert("'.$profilemessage.'")</script>';
 }
     ?>
 
-<?<?php if(isset($_POST['save'])){
+<?php if(isset($_POST['save'])){
 
 
 
@@ -211,7 +211,7 @@ echo '<script>alert("'.$profilemessage222.'")</script>';
 
     <div class="form-group col-md-6 mt-2">
       
-      <input type="submit" class="form-control card2" style="border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      <input type="submit" class="form-control card2" style="margin-top: 23px; border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s; height:50px; color:white;  background-color: #9C3DFD;" value="Save" name="asasas">
        
     </div>
@@ -231,8 +231,10 @@ echo '<script>alert("'.$profilemessage222.'")</script>';
 
      <div class="form-group col-md-6 " >
       <label for="inputEmail4">New Password</label>
+      <div class="card2">
        <input  type="name" style="border-radius:10px;" required name="new-pass" class="form-control" id="inputEmail4" placeholder="New Password">
     </div>
+     </div>
   </div>
   
      <div class="form-group col-md-6 mt-2 ">

@@ -81,6 +81,17 @@ $data = $response_data1->data;
     .text-12 {
       font-size: 12px;
     }
+    
+    .text-24 {
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* number of lines to show */
+      line-clamp: 2; 
+      -webkit-box-orient: vertical;
+    }
+    
 
     .text-18 {
       font-size: 18px;
@@ -241,20 +252,20 @@ include 'components/modals/map-modal.php';
                ?>
           
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card" style="margin-bottom: 20px; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
               <div class="row no-gutters">
                 <div class="col-sm-auto">
-                  <a href="#" class="pop">
-                    <img src= "<?php echo $dish[$y]->dish_image ;?>" id="imageresource" class="img m-2 itemImg" alt="" /></a>
+                  <a href="#" class="pop" style="height: 140px; width:200px">
+                    <img src= "<?php echo $dish[$y]->dish_image ;?>" id="imageresource" class="itemImg img m-2 " alt="" /></a>
                 </div>
                 <div class="col">
                   <div class="card-block p-2">
                     <div class="card-title row m-0 p-0">
-                      <h4 class="col-sm-7 pl-0 text-dark"><?php echo $dish[$y]->dish_name ;?></h4>
-                      <p class="col-sm-5 text-muted float-Right"><del class="text-12">Rs 250</del><span
+                      <h5 class="col-sm-6 pl-0 text-dark"><?php echo $dish[$y]->dish_name ;?></h5>
+                      <p class="col-sm-6 text-muted float-Right"><del class="text-12">Rs 250</del><span
                           class="text-second font-weight-bold"> Rs 150</span></h5>
                     </div>
-                    <p class="card-text text-muted m-0 text-12">
+                    <p class="card-text text-muted m-0 text-24">
                   <?php echo $dish[$y]->description ;?>
                     </p>
 
@@ -282,8 +293,8 @@ include 'components/modals/map-modal.php';
                     });
                   });
                     </script>
-                    <div class="card-text row mt-2">
-                      <h5 class="col-sm-6 text-second">Service 2</h5>
+                    <div class="card-text row mt-2" style="margin: 0;">
+                      <h5 class="col-sm-6 text-second" style="padding: 0;">Service 2</h5>
                       <div class="col-sm-6">
                         <span class="float-left mr-1 text-dark">Reviews: </span>
                         <div class="text-muted text-xs">
