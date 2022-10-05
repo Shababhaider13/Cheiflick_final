@@ -481,11 +481,7 @@ button.fas.fa-location.ico {
     size: 100px;
 }
 
-form.form-inline.d-flex.align-items-center.justify-content-between {
-    /*width: 228px;*/
-}
 
-.search {}
 
 .search select {
     background-color: #fff;
@@ -540,7 +536,7 @@ form.form-inline.d-flex.align-items-center.justify-content-between {
 }
 
 .sell {
-    padding: 8px 10px;
+    padding: 10px 10px;
     font-size: 15px;
     color: white;
     text-align: center;
@@ -741,6 +737,7 @@ form.form-inline.d-flex.align-items-center.justify-content-between {
 }
 
 .borderBottom {
+    padding-bottom:0.6rem;
     border-bottom: 3px solid #9C3DFD;
 }
 
@@ -877,15 +874,15 @@ form.form-inline.d-flex.align-items-center.justify-content-between {
 .left {
     z-index: 999 !important;
     position: absolute;
-    top: 30%;
-    left: -3px;
+    top: 22%;
+    left: -18px;
 }
 
 .right {
     z-index: 999 !important;
     position: absolute;
-    top: 30%;
-    right: -34px;
+    top: 22%;
+    right: -18px;
 }
 
 .card-title,
@@ -950,7 +947,7 @@ form.form-inline.d-flex.align-items-center.justify-content-between {
 
 button.fas.fa-filter.ico {
     position: absolute;
-    right: 10px;
+    right: 25px;
 }
 
 .filter .ico {
@@ -1054,18 +1051,32 @@ button.fas.fa-filter.ico {
     color: #7618D6;
     position: absolute;
     top: 40%;
-    left: 17%;
+    left: 15%;
 }
 
+.heart3 {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.heart3 i {
+    font-size: 12px;
+    color: #7618D6;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+}
 .rowCust {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .cardShadow {
     border-radius: 11px;
     padding: 10px;
     box-shadow: 0px 4px 8px #c6c3e391;
-    height: 240px;
+    height: 193px;
 }
 
 img.cardImage {
@@ -1077,8 +1088,8 @@ img.cardImage {
     font-size: 12px;
     color: #7618D6;
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 25%;
+    left: 22%;
 }
 
 
@@ -1375,6 +1386,9 @@ img.cardImage {
 }
 
 .nav-toggle {
+    height: 300px;
+    width: 230px;
+    background-color: #fff;
     position: absolute;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 10000;
