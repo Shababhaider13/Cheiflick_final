@@ -28,7 +28,7 @@
                             <img class="heiImage" src="images/pizza.png" />
                         </div>
                         <div class="col-sm-3 ml-3">
-                            <p class="pizzaHead">Pizza Vlopper</p>
+                            <p class="pizzaHead" style="text-align: start;">Pizza Vlopper</p>
                             <span class="purpleBack"><i class="fas fa-plus"></i></span>
                             <span class="simpleBack">2</span>
                             <span class="purpleBack"><i class="fas fa-minus"></i></span>
@@ -40,13 +40,13 @@
                             <del class="strikeText">Rs.250</del><p class="serveText">Rs.150</p>
                         </div>
                     </div>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-divider" style="height: 10px;"></div>
                     <div class="row">
                         <div class="col-sm-1">
                             <img class="heiImage" src="images/pizza.png" />
                         </div>
                         <div class="col-sm-3 ml-3">
-                            <p class="pizzaHead">Pizza Vlopper</p>
+                            <p class="pizzaHead" style="text-align: start;">Pizza Vlopper</p>
                             <span class="purpleBack"><i class="fas fa-plus"></i></span>
                             <span class="simpleBack">2</span>
                             <span class="purpleBack"><i class="fas fa-minus"></i></span>
@@ -58,13 +58,13 @@
                             <del class="strikeText">Rs.250</del><p class="serveText">Rs.150</p>
                         </div>
                     </div>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-divider" style="height: 10px;"></div>
                     <div class="row">
                         <div class="col-sm-1">
                             <img class="heiImage" src="images/pizza.png" />
                         </div>
                         <div class="col-sm-3 ml-3">
-                            <p class="pizzaHead">Pizza Vlopper</p>
+                            <p class="pizzaHead" style="text-align: start;">Pizza Vlopper</p>
                             <span class="purpleBack"><i class="fas fa-plus"></i></span>
                             <span class="simpleBack">2</span>
                             <span class="purpleBack"><i class="fas fa-minus"></i></span>
@@ -76,13 +76,13 @@
                             <del class="strikeText">Rs.250</del><p class="serveText">Rs.150</p>
                         </div>
                     </div>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-divider" style="height: 10px;"></div>
                     <div class="row">
                         <div class="col-sm-1">
                             <img class="heiImage" src="images/pizza.png" />
                         </div>
                         <div class="col-sm-3 ml-3">
-                            <p class="pizzaHead">Pizza Vlopper</p>
+                            <p class="pizzaHead" style="text-align: start;">Pizza Vlopper</p>
                             <span class="purpleBack"><i class="fas fa-plus"></i></span>
                             <span class="simpleBack">2</span>
                             <span class="purpleBack"><i class="fas fa-minus"></i></span>
@@ -94,13 +94,13 @@
                             <del class="strikeText">Rs.250</del><p class="serveText">Rs.150</p>
                         </div>
                     </div>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-divider" style="height: 10px;"></div>
                     <div class="row">
                         <div class="col-sm-1">
                             <img class="heiImage" src="images/pizza.png" />
                         </div>
                         <div class="col-sm-3 ml-3">
-                            <p class="pizzaHead">Pizza Vlopper</p>
+                            <p class="pizzaHead" style="text-align: start;">Pizza Vlopper</p>
                             <span class="purpleBack"><i class="fas fa-plus"></i></span>
                             <span class="simpleBack">2</span>
                             <span class="purpleBack"><i class="fas fa-minus"></i></span>
@@ -112,13 +112,13 @@
                             <del class="strikeText">Rs.250</del><p class="serveText">Rs.150</p>
                         </div>
                     </div>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-divider" style="height: 10px;"></div>
                     <div class="row">
                         <div class="col-sm-1">
                             <img class="heiImage" src="images/pizza.png" />
                         </div>
                         <div class="col-sm-3 ml-3">
-                            <p class="pizzaHead">Pizza Vlopper</p>
+                            <p class="pizzaHead" style="text-align: start;">Pizza Vlopper</p>
                             <span class="purpleBack"><i class="fas fa-plus"></i></span>
                             <span class="simpleBack">2</span>
                             <span class="purpleBack"><i class="fas fa-minus"></i></span>
