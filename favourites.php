@@ -387,7 +387,7 @@ $dishItem = $response_data->dishItem;
       	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         <img src="images/pizza-round.png" class="" alt="" width="70px;" height="75px;"/> 
         <h3 style="display:inline; Padding-left:20px; font-family:Metropolis,Regular;font-weight:300">Pizza Veloper</h3>
-          <p class="col-2 text-muted" style="float:right; font-size:18px;"><del class="text-12">Rs 250</del><span
+          <p class="col-4 text-muted" style="float:right; font-size:18px;"><del class="text-12">Rs 250</del><span
                       class="text-second font-weight-bold"> Rs 150</span>
                       
 

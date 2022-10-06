@@ -86,9 +86,11 @@ curl_close($curl);
 </head>
 <body>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<form class="" method="post" action="login.php">
+<div class="cardShadow" style="height: 450px; width:500px; margin-top:50px;" >
+<h4 style="text-align:center; margin-top:30px">Login</h4>
+<form class="" method="post" action="login.php" style="width:400px; margin-top:50px; margin-left:36px">
   <div class="form-row  ">
-    <div class="form-group col-md-12 " >
+    <div class="form-group col-md-12 " style="margin-right: 40px;" >
       <label for="inputEmail4">Email</label>
       <input style="border-radius:10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s; " type="email" class="form-control card2" id="inputEmail4" placeholder="Email" name="email">
@@ -96,23 +98,36 @@ curl_close($curl);
     
 
    
-    <div class="form-group col-md-12 " >
+    <div class="form-group col-md-12 " style="margin-right: 40px;" >
       <label for="inputEmail4">Password </label>
       <input style="border-radius:10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s; " type="name" class="form-control card2" id="inputEmail4" placeholder="Password" name="password">
     </div>
-   <small style="color:#9C3DFD; font-weight:700;margin-left:330px;">Forgor Password</small>
-   <small style="color:black; font-weight:700;margin-left:170px;">Or Login With </small>
- </div>
- <div class="form-group col-md-12 " style="margin-top:120px;"  >
-      
-      
-      <input type="submit" class="form-control" style="border-radius:20px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s; height:50px;  " name="login" value="Login Now">
+
+    <div class="from-group col-md-12">
+    <div class="form-row  ">
+    <small style="color:#9C3DFD; font-weight:700; margin-left:300px">Forgor Password?</small>
+    </div>
+    </div>
+
+    <div class="from-group col-md-12">
+    <div class="form-row  ">
+    <small style="color:black; font-weight:700; margin-left:150px">Or Login With </small>
+    </div>
+    </div>
+    
+
+   <div class="form-group col-md-12 " style="margin-top:30px;"  >
+      <input type="submit" class="form-control" style="color:#fff; background-color:#9C3DFD; border-radius:20px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; height:50px;   " name="login" value="Login Now">
        
     </div>
+ </div>
+
   
- </form></body>
+ </form>
+ </div>
+</body>
 </html>
 
 

@@ -50,8 +50,8 @@ echo '<script>alert("'.$voucheraddmessage.'")</script>';
 }
 ?>
 <div class="modal" id="modal1">
-	<div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
+	<div class="modal-dialog modal-dialog-centered" style="height: 1150px;">
+      <div class="modal-content" style="position: absolute;">
         
         <div class="modal-body">
             <div class="modalCard">

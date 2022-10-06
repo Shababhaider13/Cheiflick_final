@@ -671,9 +671,9 @@ button.fas.fa-location.ico {
     color: #9C3DFD;
 }
 
-#modal1 .modal-content {
+/* #modal1 .modal-content {
     margin-left: -50%;
-}
+} */
 
 #modal2 .modal-content {
     margin-left: 50%;
@@ -831,9 +831,9 @@ button.fas.fa-location.ico {
     text-align: right;
 }
 
-.modalCard {
+/* .modalCard {
     background: #F2F2FF;
-}
+} */
 
 
 /*Index*/
@@ -1178,7 +1178,7 @@ img.cardImage {
 }
 
 .cardMy {
-    height: 400px;
+    height: 100%s;
     overflow-y: scroll;
     overflow-x: hidden;
     margin: 10px;
@@ -1386,7 +1386,7 @@ img.cardImage {
 }
 
 .nav-toggle {
-    height: 300px;
+    /* height: 300px; */
     width: 230px;
     background-color: #fff;
     position: absolute;

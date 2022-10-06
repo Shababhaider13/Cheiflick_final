@@ -66,7 +66,7 @@ $user_data = $response_data->data;
                            <img class="heiImage" src="<?php echo $item["image"]; ?>" />
                        </div>
                        <div class="col-sm-3 ml-3">
-                           <p class="pizzaHead"  id="modalopen1" data-bs-toggle="modal" data-bs-target="#exampleModal"><?php echo $item["name"]; ?></p>
+                           <p class="pizzaHead"  id="modalopen1" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-align:start ;"><?php echo $item["name"]; ?></p>
                             <span class="purpleBack add<?php echo$item["code"];?>">
                             <i class="fas fa-plus" ></i></span>
 
@@ -127,7 +127,7 @@ $user_data = $response_data->data;
                    </div>
                    
 
-                   <div class="dropdown-divider"></div>
+                   <div class="dropdown-divider" style="height: 12px;"></div>
 
 
 				<?php

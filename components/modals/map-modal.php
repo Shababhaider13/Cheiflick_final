@@ -104,8 +104,8 @@ $iframe= ' <iframe class="map-custom" width="100%" height="400" frameborder="0" 
 
 
 <div class="modal fade" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
+  <div class="modal-dialog modal-dialog-centered" role="document" style="height:650px">
+    <div class="modal-content" style="position: absolute; height:100%;">
       <div class="modal-body">
           <div style="width: 100%">
 <!--           
