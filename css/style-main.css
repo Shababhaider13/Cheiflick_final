@@ -1395,6 +1395,7 @@ img.cardImage {
 }
 
 .cart-toggle {
+    margin-top: 32px;
     background-color: #fff;
     min-width: 600PX;
     /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/

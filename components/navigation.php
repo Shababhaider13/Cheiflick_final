@@ -54,20 +54,20 @@
            	 <button class="drop-btn dropdown-toggle" id="profileDrop" type="button"  data-toggle="collapse" href="#profileDropdown" role="button" aria-expanded="false" aria-controls="collapseExample">
            	     <span class="my-2 my-sm-0 fas fa-bars menu"></span>
            	</button>
-           	 <div class="collapse dropdown-menu-right nav-toggle profile-toggle" id="profileDropdown" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; margin-top: 29px;">
+           	 <div class="collapse dropdown-menu-right nav-toggle profile-toggle" id="profileDropdown" style="border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; margin-top: 26px;">
                 <a class="dropdown-item" href="profile.php" style="padding: 0; margin-top:8px; margin-left:20px">My Profile</a>
-                <div class="dropdown-divider"></div>
+                <div class="dropdown-divider" style="height: 1px;"></div>
                 <a class="dropdown-item" href="myorders.php" style="padding: 0; margin-top:8px; margin-left:20px">My Orders</a>
-                <div class="dropdown-divider"></div>
+                <div class="dropdown-divider" style="height: 1px;"></div>
                 <a class="dropdown-item" href="myvouchers.php" style="padding: 0; margin-top:8px; margin-left:20px">Vouchers</a>
-                <div class="dropdown-divider"></div>
+                <div class="dropdown-divider" style="height: 1px;"></div>
                 <a class="dropdown-item" href="paymentcard.php" style="padding: 0; margin-top:8px; margin-left:20px">Payment Details</a>
-                <div class="dropdown-divider"></div>
+                <div class="dropdown-divider" style="height: 1px;"></div>
                 <a class="dropdown-item" href="locations.php" style="padding: 0; margin-top:8px; margin-left:20px">Locations</a>
-                <div class="dropdown-divider"></div>
+                <div class="dropdown-divider" style="height: 1px;"></div>
                 <a class="dropdown-item" href="notification.php" style="padding: 0; margin-top:8px; margin-left:20px">Notifications</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="logout.php" style="padding: 0; margin-top:8px; margin-left:20px">Logout</a>
+                <div class="dropdown-divider" style="height: 1px;"></div>
+                <a class="dropdown-item" href="logout.php" style="padding: 0; margin-top:8px; margin-left:20px; margin-bottom: 10px;">Logout</a>
             </div>
             </div>
            	 </form>
