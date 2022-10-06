@@ -415,9 +415,9 @@ include 'components/modals/map-modal.php';
 
 <!--- pop up --->
 <div class="modal fade" id="hotelmoda" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="border-radius:25px;">
-    <div class="modal-dialog modal-lg ">
+    <div class="modal-dialog modal-lg " style="height: 530px;">
     
-    <div class="modal-content">              
+    <div class="modal-content" style="position: absolute;">              
       <div class="modal-body rounded-20">
      
 <?php 
