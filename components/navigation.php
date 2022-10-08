@@ -1,39 +1,49 @@
-<div class="container-fluid mb-4">
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container-fluid">   
 <div class="row borderBottom">
-        <div class="col-md-2">
-    <a class="navbar-brand logo" href="index.php">
+        <div class="col-md-2 col-sm-6">
+          <a class="navbar-brand logo" href="index.php">
         <img src="images/logo.png"/>
     </a>
-        </div>
-<div class="col-md-7">
-    <div class="form-row my-2">
-            <div class="col-md-4 input-group input-group-lg location">
-                <input type="text" class="form-control" placeholder="Pakistan"  style="border-radius: 10px;border-color:#E1E1E1;" />
-                <div class="input-group-btn">
+</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse col-md-7" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" style="margin-right: 5px; margin-left: 5px;">
+             <div class="input-group input-group-lg location">
+                 <input type="text" class="form-control" placeholder="Pakistan"  style="border-radius: 10px;border-color:#E1E1E1;">
+                   <div class="input-group-btn">
                     <button class="fas fa-location ico" data-toggle="modal" data-target="#mapModal"></button>
-                </div>
+                  </div>
             </div>
-            
-			<div class="col-md-3 input-group-lg search nav-box">
-                <select class="form-control nav-input" placeholder=""  style="border-radius: 10px;" />
+        </li>
+        <li class="nav-item" style="margin-right: 5px; margin-left: 5px;">
+        <div class="input-group-lg search nav-box">
+                <select class="form-control nav-input" placeholder=""  style="border-radius: 10px; padding-right:89px;">
                 	<option>Delivery</option>
                 	<option>Pickup</option>
                 </select>
             </div>
-            <div class="col-md-3 input-group-lg search nav-box">
-                <select class="form-control nav-input" placeholder=""  style="border-radius: 10px;" />
+        </li>
+        <li class="nav-item" style="margin-right: 5px; margin-left: 5px;">
+            <div class="input-group-lg search nav-box">
+                <select class="form-control nav-input" placeholder=""  style="border-radius: 10px; padding-right:72px;">
                 <span class="my-2 my-sm-0 fas fa-user sell"></span>
                 	<option>Same Day</option>	
                 </select>
             </div>
-			<div class="col-md-2 input-group-lg search nav-box">
-                <select class="form-control nav-input" placeholder=""  style="border-radius: 10px;" />
+        </li>
+        <li class="nav-item" style="margin-right: 5px; margin-left: 5px;">
+            <div class="input-group-lg search nav-box">
+                <select class="form-control nav-input" placeholder=""  style="border-radius: 10px; padding-right:50px;">
                 	<option>Kitchen</option>	
                 </select>
             </div>
-            </div>
-</div>
-        <div class="col-md-3">
+        </li>
+      </ul>
+      <div class="col-md-3">
         <form class="form-inline d-flex align-items-center justify-content-center">
             <a href="profile.php">
             <span class="my-2 my-sm-0 fas fa-user sell"></span></a>
@@ -68,9 +78,10 @@
                 <a class="dropdown-item" href="notification.php" style="padding: 0; margin-top:8px; margin-left:20px">Notifications</a>
                 <div class="dropdown-divider" style="height: 1px;"></div>
                 <a class="dropdown-item" href="logout.php" style="padding: 0; margin-top:8px; margin-left:20px; margin-bottom: 10px;">Logout</a>
-            </div>
-            </div>
-           	 </form>
-           	 </div>
-    </div>
+        
+            </form>
+      </div>
+ 
+  </div>
 </div>
+</nav>
