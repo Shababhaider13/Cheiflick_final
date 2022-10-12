@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 <div class="container-fluid">   
-<div class="row borderBottom" style="width: 100%;">
-        <div class="col-lg-2 col-md-10 col-sm-10">
+<div class="row borderBottom" >
+        <div class="col-lg-2 col-md-8 col-8">
           <a class="navbar-brand logo" href="index.php">
         <img src="images/logo.png"/>
     </a>
 </div>
-    <button class="navbar-toggler col-md-2 col-sm-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler col-md-2 col-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="height: 60px; width:60px; margin-left:60px">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent" style="margin-top: 10px; margin-left:10px">
+    <div class="collapse navbar-collapse col-lg-10 col-md-7" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item" style="margin-right: 5px; margin-left: 5px;">
              <div class="input-group input-group-lg location">
@@ -43,7 +43,7 @@
             </div>
         </li>
       </ul>
-      <div class="col-lg-3 col-md-12">
+      <div class="col-lg-3 col-md-12 col-12">
         <form class="form-inline d-flex align-items-center justify-content-center">
             <a href="profile.php">
             <span class="my-2 my-sm-0 fas fa-user sell"></span>
