@@ -252,26 +252,26 @@ include 'components/modals/map-modal.php';
                ?>
           
           <div class="col-sm-6">
-            <div class="card" style="margin-bottom: 20px; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+            <div class="cardShadow4" >
               <div class="row no-gutters">
-                <div class="col-sm-auto">
-                  <a href="#" class="pop" style="height: 140px; width:200px">
+                <div class="col-sm-auto" style="text-align:center;">
+                  <a href="#" class="pop" style="height: 140px; width:200px;">
                     <img src= "<?php echo $dish[$y]->dish_image ;?>" id="imageresource" class="itemImg img m-2 " alt="" /></a>
                 </div>
                 <div class="col">
                   <div class="card-block p-2">
                     <div class="card-title row m-0 p-0">
-                      <h5 class="col-sm-6 pl-0 text-dark"><?php echo $dish[$y]->dish_name ;?></h5>
-                      <p class="col-sm-6 text-muted float-Right"><del class="text-12">Rs 250</del><span
+                      <h5 class="cardHeading col-sm-6 pl-0 text-dark" style="padding: 0;"><?php echo $dish[$y]->dish_name ;?></h5>
+                      <p class="cardText col-sm-6 text-muted float-Right"><del class="text-12">Rs 250</del><span
                           class="text-second font-weight-bold"> Rs 150</span></h5>
                     </div>
-                    <p class="card-text text-muted m-0 text-24">
+                    <p class="cardText m-0 text-24">
                   <?php echo $dish[$y]->description ;?>
                     </p>
 
                    
 
-                    <a href="#hotelmoda" class="m-0 text-main font-weight-bold" data-toggle="modal" data-target="#hotelmoda"  data-code="codasknasnsknssse">Read more </a>
+                    <a href="#hotelmoda" class="cardLink m-0 text-main font-weight-bold" data-toggle="modal" data-target="#hotelmoda"  data-code="codasknasnsknssse">Read more </a>
 
 
 
@@ -293,9 +293,9 @@ include 'components/modals/map-modal.php';
                     });
                   });
                     </script>
-                    <div class="card-text row mt-2" style="margin: 0;">
+                    <div class="card-text row mt-2" style="margin: 0; ">
                       <h5 class="col-sm-6 text-second" style="padding: 0;">Service 2</h5>
-                      <div class="col-sm-6">
+                      <div class="col-sm-6" style="display:flex; align-items:center; justify-content:center; flex-direction: column;">
                         <span class="float-left mr-1 text-dark">Reviews: </span>
                         <div class="text-muted text-xs">
                           <div class="text-second">
