@@ -1140,6 +1140,19 @@ img.cardImage {
     text-align: left;
 }
 
+.cardText {
+    color: #B6B7B7;
+    font-size: 14px;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 1;
+}
+
+
 .cardRating {
     color: #9C3DFD;
     font-size: 14px;
@@ -1152,7 +1165,7 @@ img.cardImage {
 }
 
 .cardHeading {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -1310,8 +1323,8 @@ img.cardImage {
 }
 
 .itemImg {
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 130px;
 }
 
 
