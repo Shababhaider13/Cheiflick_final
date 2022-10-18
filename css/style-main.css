@@ -90,6 +90,13 @@ svg {
     grid-template-rows: 250px 1fr 1fr 250px 70px;
 }
 
+.modal-dialog2 {
+    width: 630px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 #close {
     background-color: white;
 }
@@ -1333,6 +1340,11 @@ img.cardImage {
     /*    margin: auto;*/
     /*}*/
 
+    .modal-dialog2 {
+        width: 340px;
+    }
+        
+        
     .cardShadow {
         scroll-behavior:unset;
         border-radius: 11px;
